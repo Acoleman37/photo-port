@@ -35,24 +35,11 @@ function App() {
             <About></About>
           </>
         ) : (
-            <ContactForm></ContactForm>
-          )}
+          <ContactForm></ContactForm>
+        )}
       </main>
     </div>
   );
 }
-
-// if (!contactSelected) {
-//   return (
-//   <>
-//             <Gallery currentCategory={currentCategory}></Gallery>
-//             <About></About>
-//           </>)
-// } else {
-//   return
-//   (
-//             <ContactForm></ContactForm>
-//           )
-// }
 
 export default App;
